@@ -1,9 +1,9 @@
-
-
+import { Comments } from "./components/Comments/Comments";
+import './App.css'
 function App() {
   return (
     <div >
-      <h1>Hello</h1>
+      <Comments currentUserId="4"/>
     </div>
   );
 }
